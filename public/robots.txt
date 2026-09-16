@@ -1,0 +1,7 @@
+# Robots.txt for Manav Dental Care
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://manavdentalcare.com/sitemap.xml
