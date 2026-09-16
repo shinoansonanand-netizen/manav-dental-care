@@ -194,7 +194,7 @@ export const CLINIC_CONFIG: ClinicConfig = {
   },
   maps: {
     googleMapsUrl: envGoogleMaps || "https://www.google.com/maps/search/?api=1&query=Manav+Dental+Care+Padur+OMR+Chennai",
-    googleMapsEmbedUrl: envGoogleMapsEmbed || "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15562.475438843343!2d80.21855648715822!3d12.803204999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525afc2c9d747d%3A0xb5b79e276067b0aa!2sPadur%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1710500000000!5m2!1sen!2sin",
+    googleMapsEmbedUrl: envGoogleMapsEmbed || "https://maps.google.com/maps?q=Manav+Dental+Care+Padur+Chennai&t=&z=15&ie=UTF8&iwloc=&output=embed",
     appleMapsUrl: "https://maps.apple.com/?q=Manav+Dental+Care+Padur+OMR+Chennai",
     directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Padur+OMR+Chennai",
     isLocationVerified: Boolean(envGoogleMaps && !detectPlaceholder(envGoogleMaps))
